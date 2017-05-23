@@ -1,0 +1,11 @@
+{
+	"ImportPath": "github.com/laijs/gommap",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v75",
+	"Deps": [
+		{
+			"ImportPath": "golang.org/x/exp/mmap",
+			"Rev": "239d448f23a0d683c1ab7225da01af038355f5e9"
+		}
+	]
+}
