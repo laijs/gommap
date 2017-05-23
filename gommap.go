@@ -17,8 +17,10 @@ func main() {
 		fmt.Printf("error :%v", err)
 	}
 	for {
-		for i := 0; i < m.Len(); i = i + 4096 {
-			m.At(i)
+		useit := 0
+		for i := 0; i < m.Len(); i = i + 512 {
+			useit = useit + int(m.At(i))
 		}
+		fmt.Printf("random result: %v\n", useit)
 	}
 }
